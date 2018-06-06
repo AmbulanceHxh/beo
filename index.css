@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+}
+.container{
+	width: 1024px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.header-box{
+	
+	height: 100vh;
+	
+	background: #192314;
+	position: relative;
+	overflow: hidden;
+}
+.header-box-picture{
+	width: 652px;
+	height: 503px;
+	background: url(beosound-shape-mobile.jpg);
+	background-size: 652px auto;
+	float: right;
+}
+.header-box-text{
+	width: 512px;
+	height: 193px;
+	position: absolute;
+	top: 200px;
+	left: 130px;
+}
+.header-box-text1{
+	line-height: 23px;
+	margin-bottom: 10px;
+	color: #fff;
+	font-size: 12px;
+	font-family:"Gotham SSm A","Gotham SSm B"; 
+	font-weight: bolder;
+	letter-spacing: 2px;
+	font-weight: 400;
+	font-style: normal;
+}
+.header-box-text2{
+	line-height: 39px;
+	margin: 15px 0 22px 0;
+	color: #fff;
+	font-size: 30px;
+	font-family: SimHei,"黑体", Hiragino Sans GB, "冬青黑体", sans-serif;
+	font-weight: 500;
+	letter-spacing: 3.75px;
+}
+.header-box-text3{
+	line-height: 21px;
+	margin-bottom: 19px;
+	color: #fff;
+	font-size: 12px;
+	font-family: "冬青黑体";
+	font-weight: 300;
+}
+.button{
+	line-height: 15px;
+	width: 151px;
+	margin: 8px 0;
+	padding: 10px 40px;
+	background-color: rgba(255,255,255,0.1);
+	color: #fff;
+	font-size: 9px;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+
+.top{
+	width: 1024px;
+	height: 57px;
+	background:#192314;
+	padding: 0 16px;
+
+
+}
+.list{
+	width: 248px;
+	line-height: 56px;
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	font-family: "冬青黑体";
+}
+.title{
+	line-height: 45px;
+	width: 167px;
+	margin-left: 150px;
+	margin-top: 10px;
+	display: block;
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	font-family: "Gotham SSm A";
+	font-weight: 400;
+	text-decoration: none;
+	text-align:center;
+
+}
+.menu{
+	width: 245px;
+	float: right;
+	color: #fff;
+	font-size: 20px;
+	font-family: SimHei,"黑体", Hiragino Sans GB, "冬青黑体", sans-serif;
+}
+.banner-box{
+	width: 100%;
+	height: 600px;
+	margin-top: -80px;
+	margin-left: 0px;
+	background-position: -100px;
+	background: url(img-bg-1350.jpg);
+	background-size: 100% auto;
+}
+.banner-product{
+	height: 353px;
+	width: 705px;
+	z-index: 50;
+	margin-left: 160px;
+
+}
+.banner-product-item{
+	float: left;
+	position: relative;
+}
+.banner-product-item img{
+	width: 235px;
+	height: 353px;
+}
+.banner-product-item h4{
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500px;
+	font-family: "SimHei"
+}
