@@ -348,13 +348,16 @@
     width: 346px;
     height: 42px;
     border: 2px solid gainsboro;
-    outline: none;
+    /*outline: none;*/
     margin: 13px auto 40px auto;
+
 }
 
 .footer-email input {
     margin: 10px 0 0 10px;
-    border: none;
+    border: 1px solid #fff;
+    outline: none;
+
 }
 
 .footer-button {
@@ -429,7 +432,7 @@
     width:350px;
     height:20px;
     margin: 20px 0 0 15px;
-    padding:0px 14px 0 30px;
+    padding:0 14px 0 30px;
     background: url("global.png") no-repeat ;
     background-size: 20px 20px;
     font-size: 12px;
