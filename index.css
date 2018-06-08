@@ -1,268 +1,452 @@
-*{
-	margin: 0;
-	box-sizing: border-box;
-}
-.container{
-	width: 1024px;
-	margin: 0 auto;
-	position: relative;
-
-}
-.header-box{
-	
-	height: 100vh;
-	
-	background: #192314;
-	position: relative;
-	overflow: hidden;
-}
-.header-box-picture{
-	width: 652px;
-	height: 503px;
-	background: url(beosound-shape-mobile.jpg);
-	background-size: 652px auto;
-	float: right;
-}
-.header-box-text{
-	width: 512px;
-	height: 193px;
-	position: absolute;
-	top: 200px;
-	left: 130px;
-}
-.header-box-text1{
-	line-height: 23px;
-	margin-bottom: 10px;
-	color: #fff;
-	font-size: 12px;
-	font-family:"Gotham SSm A","Gotham SSm B"; 
-	font-weight: bolder;
-	letter-spacing: 2px;
-	font-weight: 400;
-	font-style: normal;
-}
-.header-box-text2{
-	line-height: 39px;
-	margin: 15px 0 22px 0;
-	color: #fff;
-	font-size: 30px;
-	font-family: SimHei,"黑体", Hiragino Sans GB, "冬青黑体", sans-serif;
-	font-weight: 500;
-	letter-spacing: 3.75px;
-}
-.header-box-text3{
-	line-height: 21px;
-	margin-bottom: 19px;
-	color: #fff;
-	font-size: 12px;
-	font-family: "冬青黑体";
-	font-weight: 300;
-}
-.button{
-	line-height: 15px;
-	width: 151px;
-	margin: 8px 0;
-	padding: 10px 40px;
-	background-color: rgba(255,255,255,0.1);
-	color: #fff;
-	font-size: 9px;
-	text-decoration: none;
-	letter-spacing: 1px;
-	font-weight: 400;
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.top{
-	width: 1024px;
-	height: 57px;
-	/*background-color: rgba(255,255,255,0.3);*/
-	padding: 0 16px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: flex;
-	z-index: 2000;
-	justify-content: space-between;
-	border-bottom: 1px rgba(255,255,255,0.3) solid;
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
 
 }
-.top-left{
-	width: 240px;
-	line-height: 56px;
-	/*float: left;*/
-	color: #fff;
-	font-size: 12px;
-	font-family: "冬青黑体";
-	/*background: url("product.png");
-	background-repeat: no-repeat;
-	background-position: left center;*/
-}
-.top-center{
-	line-height: 57px;
-	width: 167px;
-	color: #fff;
-	margin: 0 164px;
-	font-size: 18px;
-	font-family: "Gotham SSm A";
-	font-weight: 500;
-	text-align:center;
 
-}
-.top-right{
-	width: 248px;
-	line-height: 57px;
-	/*float: right;*/
-	color: #fff;
-	font-size: 12px;
-	font-family:"黑体";
-	/*background: url("menu.png");
-	background-repeat: no-repeat;
-	background-position: right center;*/
-}
-.top-left img{
-	padding: 12px 5px 9px 1px;
-	float: left;
-}
-.top-left h4{
-	float: left;
-	padding: 0 5px;
-}
-.top-right h4{
-	float: right;
-	padding: 0 5px;
-}
-.top-right img{
-	padding: 15px 5px 7px 5px;
-	float: right;
+.header-box {
+
+    height: 100vh;
+
+    background: #192314;
+    position: relative;
+    overflow: hidden;
 }
 
-
-.banner-box{
-	width: 100%;
-	height: 500px;
-	margin-top: -80px;
-	margin-left: 0px;
-	/*background-position: -20px;*/
-	background: url(img-bg-1350.jpg);
-	background-size: 100% auto;
-}
-.banner-product{
-	height: 353px;
-	width: 705px;
-	z-index: 100;
-	margin-left: 160px;
-
-}
-.banner-product-item{
-	float: left;
-	position: relative;
-}
-.banner-product-item img{
-	width: 235px;
-	height: 353px;
-}
-.banner-product-item h4{
-	position: absolute;
-	top: 15px;
-	left: 20px;
-	color: #fff;
-	font-size: 18px;
-	font-weight: 500px;
-	font-family: "SimHei"
+.header-box-picture {
+    width: 652px;
+    height: 503px;
+    background: url(beosound-shape-mobile.jpg);
+    background-size: 652px auto;
+    float: right;
 }
 
+.header-box-text {
+    width: 512px;
+    height: 193px;
+    position: absolute;
+    top: 200px;
+    left: 130px;
+}
+
+.header-box-text1 {
+    line-height: 23px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 12px;
+    /*font-family:SimHei;*/
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-box-text2 {
+    line-height: 39px;
+    margin: 15px 0 22px 0;
+    color: #fff;
+    font-size: 30px;
+    font-family: SimHei, "黑体", Hiragino Sans GB, "冬青黑体", sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.header-box-text3 {
+    line-height: 21px;
+    margin-bottom: 19px;
+    color: #fff;
+    font-size: 12px;
+    /*font-family: "冬青黑体";*/
+    font-weight: 300;
+}
+
+.button {
+    line-height: 15px;
+    width: 151px;
+    margin: 8px 0;
+    padding: 10px 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 9px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.top {
+    width: 1024px;
+    height: 57px;
+    /*background-color: rgba(255,255,255,0.3);*/
+    padding: 0 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 2000;
+    justify-content: space-between;
+    border-bottom: 1px rgba(255, 255, 255, 0.3) solid;
+
+}
+
+.top-left {
+    width: 240px;
+    line-height: 56px;
+    /*float: left;*/
+    color: #fff;
+    font-size: 12px;
+    /*font-family: consolas;*/
+    /*background: url("product.png");
+    background-repeat: no-repeat;
+    background-position: left center;*/
+}
+
+.top-center {
+    line-height: 57px;
+    width: 167px;
+    color: #fff;
+    margin: 0 164px;
+    font-size: 18px;
+    /*font-family: "Gotham SSm A";*/
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.top-right {
+    width: 248px;
+    line-height: 57px;
+    /*float: right;*/
+    color: #fff;
+    font-size: 12px;
+    /*font-family:"黑体";*/
+    /*background: url("menu.png");
+    background-repeat: no-repeat;
+    background-position: right center;*/
+}
+
+.top-left img {
+    padding: 12px 5px 9px 1px;
+    float: left;
+}
+
+.top-left h4 {
+    float: left;
+    padding: 0 5px;
+}
+
+.top-right h4 {
+    float: right;
+    padding: 0 5px;
+}
+
+.top-right img {
+    padding: 15px 5px 7px 5px;
+    float: right;
+}
+
+.banner-box {
+    width: 100%;
+    height: 500px;
+    margin-top: -80px;
+    margin-left: 0;
+    /*background-position: -20px;*/
+    background: url(img-bg-1350.jpg);
+    background-size: 100% auto;
+}
+
+.banner-product {
+    height: 353px;
+    width: 705px;
+    z-index: 100;
+    margin-left: 160px;
+
+}
+
+.banner-product-item {
+    float: left;
+    position: relative;
+}
+
+.banner-product-item img {
+    width: 235px;
+    height: 353px;
+}
+
+.banner-product-item h4 {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    /*font-family: "SimHei";*/
+}
 
 /*------------------------*/
 
-.series-text{
-	width: 100%;
-	height: 268px;
+.series-text {
+    width: 100%;
+    height: 268px;
 }
 
-.series-text1{
-	width: 100%;
-	line-height: 15px;
-	padding-top: 100px;
-	font-size: 9px;
-	font-weight: 400px;
-	letter-spacing: 0.9px;
-	text-align: center;
-}
-.series-text2{
-	width: 100%;
-	line-height: 39px;
-	margin: 15px 0 24px 0;
-	font-family: "SimHei";
-	font-size: 30px;
-	font-weight: 500px;
-	letter-spacing: 3.75px;
-	text-align: center;
-}
-.series-product{
-	width: 1024px;
-	overflow: hidden;
-}
-.series-product-item{
-	height: 512px;
-	float: left;
-	position: relative;
-}
-.series-product-item img{
-	width: 512px;
-	height: 512px;
-}
-.series-product-item h4{
-	position: absolute;
-	padding: 31px 40px;
-	font-family: "SimHei";
-	font-size: 10.5px;
-	font-weight: 500;
-	letter-spacing: 2px;
-	color: white;
-}
-.series-product2{
-	width: 826px;
-	height: 363px;
-	padding: 0 58px;
-	/*border: 2px solid black;*/
-	margin: 0 auto;
-	display: flex;
-	flex-wrap: wrap;
-
-}
-.series-product2-item{
-	width: 176px;
-	height: 168px;
-	/*border: 1px solid black;*/
+.series-text1 {
+    width: 100%;
+    line-height: 15px;
+    padding-top: 100px;
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
-.series-product2-item2{
-	width: 352px;
-	height: 168px;
-	/*border: 1px solid black;*/
+.series-text2 {
+    width: 100%;
+    line-height: 39px;
+    margin: 15px 0 24px 0;
+    /*font-family: "SimHei";*/
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-align: center;
 }
-.series-product2-item img{
-	width: 176px;
-	height: 168px;
+
+.series-product {
+    width: 1024px;
+    overflow: hidden;
 }
-.series-product2-item2 img{
-	width: 352px;
-	height: 168px;
+
+.series-product-item {
+    height: 512px;
+    float: left;
+    position: relative;
 }
-.series-product2-title{
-	width: 100%;
-	height: 23px;
-	margin-top: 18px;
-	margin-bottom: 18px;
-	font-size: 12px;
+
+.series-product-item img {
+    width: 512px;
+    height: 512px;
+}
+
+.series-product-item h4 {
+    position: absolute;
+    padding: 31px 40px;
+    /*font-family: "SimHei";*/
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.series-product2 {
+    width: 826px;
+    height: 463px;
+    padding: 0 58px;
+    /*border: 2px solid black;*/
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.series-product2-item {
+    width: 176px;
+    height: 168px;
+    /*border: 1px solid black;*/
+}
+
+.series-product2-item2 {
+    width: 352px;
+    height: 168px;
+    /*border: 1px solid black;*/
+}
+
+.series-product2-item img {
+    width: 176px;
+    height: 168px;
+}
+
+.series-product2-item2 img {
+    width: 352px;
+    height: 168px;
+}
+
+.series-product2-title {
+    width: 100%;
+    height: 23px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 12px;
     font-weight: 600;
-    font-family: "Gotham SSm A";
+    /*font-family: "Gotham SSm A";*/
 }
-.series-product2-content{
-	width: 100%;
-	height: 23px;
-	padding-right: 10px;
-	margin-bottom: 18px;
-	font-size: 13px;
+
+.series-product2-content {
+    width: 100%;
+    height: 23px;
+    padding-right: 10px;
+    margin-bottom: 18px;
+    font-size: 13px;
     font-weight: 300;
-    font-family: "consolas";
+    /*font-family: "consolas";*/
+}
+
+.footer-box {
+    width: 100%;
+    height: 537px;
+    padding: 0 14px;
+    display: flex;
+    border-top: 2px solid #fcfcfc;
+}
+
+.footer {
+    width: 498px;
+    height: 100%;
+}
+
+.footer:nth-child(1) {
+    border-right: 2px solid #fcfcfc;
+}
+
+.footer-news {
+    width: 290px;
+    height: 147px;
+    margin: 60px auto 30px auto;
+}
+
+.footer-info-png {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-info-png img {
+    width: 54px;
+    height: 54px;
+}
+
+.footer-info-title {
+    line-height: 23px;
+    margin-bottom: 13px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.footer-info-desc {
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #888;
+    text-align: center;
+}
+
+.footer-email {
+    width: 346px;
+    height: 42px;
+    border: 2px solid gainsboro;
+    outline: none;
+    margin: 13px auto 40px auto;
+}
+
+.footer-email input {
+    margin: 10px 0 0 10px;
+    border: none;
+}
+
+.footer-button {
+    width: 200px;
+    height: 34px;
+    background: #e5e5e5;
+    margin: 8px auto;
+    text-align: center;
+    padding: 12px 35px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.footer-button:nth-child(2) {
+    margin-top: 120px;
+}
+
+/*.footer-language {*/
+/*width: 1024px;*/
+/*height: 700px;*/
+/*margin: 0 auto;*/
+/*text-align: center;*/
+/*font-size: 12px;*/
+/*}*/
+
+/*.footer-language-desc:nth-child(1) {*/
+/*width: 100%;*/
+/*height: 17px;*/
+/*background: url("global.png");*/
+/*background-repeat: no-repeat;*/
+/*margin-bottom: 14px;*/
+/*background-size: 18px 18px;*/
+/*background-position: center center;*/
+/*}*/
+
+/*.footer-language-desc:nth-child(2) {*/
+/*width: 100%;*/
+/*height: 12px;*/
+/*margin: 0 auto;*/
+/*font-weight: 700;*/
+/*letter-spacing: 1px;*/
+
+/*}*/
+
+/*.footer-language-desc:nth-child(3) {*/
+/*width: 100%;*/
+/*height: 12px;*/
+/*margin: 30px auto 9px 300px;*/
+/*font-weight: 400;*/
+/*text-align: left;*/
+/*}*/
+
+/*.footer-language-desc:nth-child(4) {*/
+/*width: 100%;*/
+/*height: 12px;*/
+/*margin: 24px auto 0 150px;*/
+/*text-align: left;*/
+/*font-weight: 400;*/
+/*}*/
+
+.footer-language {
+    width: 1024px;
+    height: 80px;
+    padding: 0 14px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer-language .left {
+    width:350px;
+    height:20px;
+    margin: 20px 0 0 15px;
+    padding:0px 14px 0 30px;
+    background: url("global.png") no-repeat ;
+    background-size: 20px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.footer-language .right{
+    width: 630px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 0 14px;
+}
+.footer-language .right a{
+    line-height: 15px;
+    margin-left: 16px;
+    font-size: 12px;
+    text-decoration: none;
+    float: right;
+    color: #000
 }
